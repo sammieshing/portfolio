@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+}
+
+/* note: * applies css to all elements - but use wisely */
+/* note: if you use "px" for font sizes, it'll fix it to 30 px. use "em" instead so when you adjust things, it'll scale automatically */
+/* note: use "vh" which stands for viewport height & "vw" which stands for viewport width */
+/* note: linear-gradient (to bottom right, color, color)*/
+
+
+body {
+  margin: 0;
+  font-family: 'Sunflower', sans-serif;
+  font-size: 1.25em;
+}
+
+header  img {
+  width: 50%;
+  padding: 1em;
+
+}
+
+header
+{
+  min-height: 100vh;
+  background-color: rgb(229, 142, 172);
+
+}
+
+nav {
+  background-color: rgb(51, 48, 45);
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li {
+  padding: 1em;
+list-style-type: none;
+ }
+
+nav ul {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+header main {
+    padding-top: 3em;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  letter-spacing: 0.1em;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+}
+
+.about-me {
+  padding: 3em 0;
+  line-height: 1.5;
+  background-color: rgb(229, 174, 224);
+  color: black;
+  text-shadow: 1px black;
+
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.projects {
+  padding: 3em 0;
+  background-color: rgb(252, 212, 248);
+}
+
+.projects img {
+  width: 30%;
+  padding: 30px 30px 30px 0;
+
+}
